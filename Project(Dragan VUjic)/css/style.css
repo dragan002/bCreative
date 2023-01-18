@@ -1,0 +1,1105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ===================HEADER ======================*/
+.container_about {
+    position: relative;
+    bottom: 50px;
+}
+.container-fluid {
+    padding-left: 600px;
+    padding-top: 20px;
+}
+.navbar-header img {
+    height: 50px;
+    width: 160px;
+}
+.navbar-header {
+    float: left;
+    position: relative;
+    left: 330px;
+    top: 10px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    position: relative;
+    bottom: 5px;
+}
+.search img {
+    height: 33px;
+    width: 33px;
+    position: relative;
+    left: 33px;
+    top: 2px;
+    transition: 0.7s;
+}
+.search img:hover {
+    height: 40px;
+    width: 40px;
+}
+.navbar-default .navbar-nav>li>a  {
+    color: black;
+    font-weight: 600;
+    transition: 0.4s;
+
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ef5821;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #768188;
+    
+}
+/* ================= END OF HEADER ================*/ 
+
+/* =============== HOME PAGE ==================*/
+.home {
+    width: 100%;
+    height: 0;
+}
+.home img {
+    width: 100%;
+    height: 688px;
+    position: relative;
+    bottom: 20px;
+    z-index: -1;
+    background: linear-gradient(to left, #d0ba16ba, #d04033ba), url(/homePage_img/second.jpg) no-repeat top center;
+    background-size: 1530px 800px;
+}
+ /*background: linear-gradient(to left, #d0ba16ba, #c0a820ba), url(/homePage_img/second.jpg) no-repeat top center;*/
+.home .home_text {
+    position: relative;
+    text-align: center;
+    bottom: 550px;
+    margin: 40px;
+    padding: 40px;
+}
+.home .home_text h3 {
+    font-weight: 800;
+    letter-spacing: 6px;
+    color: rgb(34, 31, 31);
+}
+.home .home_text h1 {
+    position: relative;
+    top: 8px;
+    font-weight: 1000;
+    letter-spacing: 11px;
+    font-size: 60px;
+    color: #fff;
+}
+.home .home_text button {
+    width: 190px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    background-color: black;
+    color:#fff;
+    letter-spacing: 1px;
+    scale: 1;
+    transition: 0.4s;
+}
+
+.home .home_text button:hover {
+    background-color: #ef5821;
+    border: 0;
+    scale: 1.2;
+
+}
+/* ============== END OF HOME PAGE ===============*/
+
+/* ============== ABOUT US SECTION =============*/
+.container_about {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 760px;
+    position:absolute;
+    top: 760px;
+}
+.container_about .desc {
+    text-align: center;
+    margin: 10px;
+    padding: 90px 394px;
+}
+.container_about .desc h3 {
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.desc p {
+    line-height: 25px;
+}
+.gLine {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(239,90,34,1) 28%, rgba(249,198,102,1) 76%, rgba(250,169,18,1) 100%);
+    margin: 30px auto;
+}
+.circles,
+.desc {
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+.circles_desc {
+    margin: 0 -50px;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    bottom: 20px;
+}
+/* =============== Lines under circles ==========*/
+.second {
+    width: 60px;
+    height: 3px;
+    position: relative;
+    bottom: 15px;
+    background: black;
+    margin: 30px auto;
+}
+
+/* =============END of Lines of Circle =========*/
+.circles img {
+  border-radius: 50px;
+  width: 70px;
+  height: 50px;
+  position: relative;
+  left: 5px;
+  top: 13px;
+}
+.shapeOfCircle {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+    left: 450px;
+    bottom: 35px;
+    transition: 0.6s;
+}
+
+.circles .shapeOfCircle h4  {
+    width: 100px;
+    margin-top: 48px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    text-transform: uppercase;
+    position: relative;
+    right: 20px;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+.shapeOfCircle:hover h4  {
+    color:#ef5821; 
+}
+.shapeOfCircle:hover .gLine {
+    background: linear-gradient(90deg, rgba(239,90,34,1) 28%, rgba(249,198,102,1) 76%, rgba(250,169,18,1) 100%);}
+
+.shapeOfCircle:hover img {
+    filter: brightness(0) invert(1);
+}
+.shapeOfCircle:hover {
+    background-color:#ef5821;
+    border: 0px;
+}
+
+#development {
+    position: relative;
+    right: 40px;
+}
+
+
+
+/* ============== PORTFOLIO SECTION WITH FOUR BUTTONS =================*/
+.portfolio {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+.portfolio h1 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.button {
+    margin: 10px 20px;
+    height: 50px;
+    width: 160px;
+    font-weight: 500;
+    background-color: #fff;
+    border: 2px solid rgb(195, 185, 185);
+    letter-spacing: 1px;  
+    transition: 0.5s; 
+}
+.button:hover {
+    background-color: #ef5821;
+    color: #ffffff;
+    border: 0px;
+    font-size: 17px;
+    box-shadow: 5px 5px #888888;
+}
+/* ==================END OF PORTFOLIO SECTION =================*/
+
+/* ======================== SECTION 3 (IMG) =================*/
+.section3 {
+    background-color: #afa9a9;
+    width:100%;
+    height: 760px;
+    position:absolute;
+    top: 1520px;
+    
+}
+
+.section3 .leftSide {
+    width: 50%;
+    height: 760px;
+    background-color: rgb(82, 46, 46);
+}
+
+.section3 .rightSide {
+    width: 50%;
+    height: 810px;
+    position: relative;
+    bottom: 2057px;
+    float: right;
+    background-color: aqua;
+}
+.section3 .leftSide img {
+    width: 200px;
+}
+
+
+/* ============ Left side Picture ======== */ 
+
+
+/* ====== TSIF PICTURE HOVER EFFECT ============*/
+.container_overlay_first {
+    width: 380px;
+    height: 490px;
+}
+#tsif {
+    width: 380px;
+    height: 490px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+}
+.overlay1 {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    width: 350px;
+    height: 460px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+  }
+  .container_overlay_first:hover .overlay1 {
+    opacity: .9;
+}
+.tsifTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 180px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* ============ END OF TSIF PICTURE HOVER EFFECT ============*/
+
+/* ====== rolex PICTURE HOVER EFFECT ============*/
+
+.container_overlay_second {
+    width: 380px;
+    height: 490px;
+}
+.overlay2 {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 395px;
+    right: 15px;
+    width: 350px;
+    height: 230px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+  }
+  .container_overlay_second:hover .overlay2 {
+    opacity: .9;
+} 
+.rolexTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+#rolex {
+    width: 380px;
+    height: 260px;
+    position: relative;
+    bottom: 760px;
+    left: 380px;
+    filter: contrast(120%);
+}
+
+/* =============== END OF ROLEX ============*/
+
+/* ====== PLUM PICTURE HOVER EFFECT ============*/
+
+#plum {
+width: 380px;
+height: 305px;
+position: relative;
+bottom: 790px;
+filter: contrast(120%);
+z-index: 1;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 470px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    width: 350px;
+    height: 275px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_third:hover .overlay3 {
+    opacity: .9;
+} 
+.plumTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+
+/* ======  END OF PLUM PICTURE HOVER EFFECT ============*/
+
+
+/* ====== MOBILE PICTURE HOVER EFFECT ============*/
+#mobile {
+    width: 380px;
+    height: 501px;
+    position: relative;
+    bottom: 1295px;
+    left: 380px;
+    filter: contrast(120%);
+}
+
+.overlay4 {
+    position: absolute;
+    top: 277px;
+    bottom: 15px;
+    left: 396px;
+    right: 15px;
+    width: 350px;
+    height: 470px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_forth:hover .overlay4 {
+    opacity: .9;
+} 
+.mobileTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* ====== END OF MOBILE PICTURE HOVER EFFECT ============*/
+
+
+/* ========== End of Left Side Pictures ======*/ 
+
+/* ============RIGHT SIDE PICTURES =============*/ 
+
+/* ====== SWAM PICTURE HOVER EFFECT ============*/
+#swam {
+    width: 760px;
+    height: 261px;
+    position: relative;
+    filter: contrast(120%);
+}
+.overlay5 {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    width: 730px;
+    height: 231px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_fifth:hover .overlay5 {
+    opacity: .9;
+} 
+.swamTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* ====== END OF SWAM PICTURE HOVER EFFECT ============*/
+
+/* ====== TOYOTA PICTURE HOVER EFFECT ============*/
+#toyota {
+    width: 51%;
+    height: 250px;
+    position: relative;
+    left: 379px;
+    bottom: 1px;
+    filter: contrast(120%);
+}
+
+.overlay6 {
+    position: absolute;
+    top: 275px;
+    bottom: 15px;
+    left: 395px;
+    right: 15px;
+    width: 356.7px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_sixth:hover .overlay6 {
+    opacity: .9;
+} 
+.toyotaTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 80px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* ====== END OF TOYOTA PICTURE HOVER EFFECT ============*/
+
+/* ====== HOW2FIT PICTURE HOVER EFFECT ============*/
+#how2fit {
+    width: 50%;
+    height: 500px;
+    position: relative;
+    bottom: 250px;
+    filter: contrast(120%);
+}
+
+.overlay7 {
+    position: absolute;
+    top: 275px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    width: 350px;
+    height: 470px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_seventh:hover .overlay7 {
+    opacity: .9;
+} 
+.how2fitTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* ====== END OF HOW2FIT PICTURE HOVER EFFECT ============*/
+
+/* ====== BCREATIVE PICTURE HOVER EFFECT ============*/
+#bcreative {
+    width: 50%;
+    height: 251px;
+    position: relative;
+    bottom: 501px;
+    left: 379.5px;
+    filter: contrast(120%);
+}
+.overlay8 {
+    position: absolute;
+    top: 525px;
+    bottom: 15px;
+    left: 395px;
+    right: 15px;
+    width: 350px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_eighth:hover .overlay8 {
+    opacity: .9;
+} 
+.bCreativeTxt {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 80px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* ====== END OF BCREATIVE PICTURE HOVER EFFECT ============*/
+
+/* ============  END RIGHT SIDE PICTURES =============*/ 
+
+/* ============== SECTION4 (COUNTER)=============*/ 
+.section4_counter {
+    width: 100%;
+    height: 150px;
+    margin-top: 2188px;
+    letter-spacing: 2px;
+    padding: 0 370px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ef5821;
+}
+.section4_counter .counter {
+    font-weight: 600;
+    font-size: 46px;
+}
+/* =================== END OF SECTION4 (COUNTER) =================== */ 
+
+/* ======================= Section 5, blog =========================*/
+.blog {
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    background-color: #ffffff;
+}
+.blog_img{
+    display: flex;
+    margin: -30px 237px;
+}
+.images3 {
+    margin: 0 35px;
+}
+.blog h3 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.title_blog {
+    margin: 60px 340px;
+    text-align: center;
+    line-height: 30px;
+}
+.blog_img img {
+    width: 260px;
+    height: 270px; 
+    filter: brightness(120%);
+    filter: contrast(130%);
+    filter: saturate(200%);
+    box-shadow: 10px 10px 5px #ccc;
+}
+.box {
+    height: 80px;
+    width: 75px;
+    background-color: #ef5821;
+    position: relative;
+    bottom: 270px;
+    left: 185px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 15px;
+    font-size: 16px;
+
+
+}
+.box p  {
+padding-top: 8px;
+color: #fff;
+font-weight:500;
+font-size: 16px;
+}
+.underImg_desc {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+.underImg_desc h5 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 15px;
+}
+.underImg_desc p {
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 18px;
+    color: #8e8989;
+}
+.underImg_desc a  {
+    color: #ef5821;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+    font-weight:bold;
+    transition: 0.5s;
+}
+.underImg_desc a:hover {
+    font-size: 18px;
+}
+
+/* ==================== END OF BLOG ===============*/
+
+/* ===================== TEAM ===================*/
+.team {
+    width: 100%;
+    height: 1360px;
+    padding: 631px 0;
+    background-color: #ffe3d8;
+}
+.team_container {
+    margin: 50px auto;
+}
+.team_img {
+    display: flex;
+}
+.team h2 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-top: 200px;
+    
+}
+.team .team_img img {
+    width: 260px;
+    height: 330px; 
+    position: relative;
+    left: 185px;
+    margin: 20px 50px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+/* =============================== FIRST TEAM IMAGE HOVER EFFECT =================== */
+#teamFirstImg {
+    position: relative;
+    left: 222px;
+}
+
+.overlay_team1 {
+    position: absolute;
+    top: 3381px;
+    bottom: 10px;
+    left: 286px;
+    right: 15px;
+    width: 230px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_team_first:hover .overlay_team1 {
+    opacity: .9;
+} 
+.socialIcons_team {
+    display: flex;
+    color: #fff;
+    margin:20px 19px;
+}
+.socialIcons_team i {
+    font-size: 25px;
+    margin: 0px 13px;
+    position: relative;
+    top: 46px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.socialIcons_team i:hover {
+    color: black;
+}
+.firstImgTxt {
+    text-align: center;
+    margin-top: 95px;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.firstImgTxt h3 {
+    font-size: 20px;
+    line-height: 5px;
+    letter-spacing: 2px;
+}
+.whiteLine {
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 25px auto;
+}
+
+/* =============================== END OF FIRST TEAM IMAGE HOVER EFFECT =================== */
+
+/* =============================== SECOND TEAM IMAGE HOVER EFFECT =================== */
+#teamSecondImg {
+    position: relative;
+    left: 189px;
+}
+
+.overlay_team2 {
+    position: absolute;
+    top: 3381px;
+    bottom: 10px;
+    left: 614px;
+    right: 15px;
+    width: 230px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_team_second:hover .overlay_team2 {
+    opacity: .9;
+} 
+/* =============================== END OF SECOND TEAM IMAGE HOVER EFFECT =================== */
+
+/* =============================== THIRD TEAM IMAGE HOVER EFFECT =================== */
+#teamThirdImg {
+    margin-left: 19px;
+} 
+
+.overlay_team3 {
+    position: absolute;
+    top: 3381px;
+    bottom: 10px;
+    left: 939px;
+    right: 15px;
+    width: 230px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f67f25;
+    z-index: 1;
+  }
+  .container_overlay_team_third:hover .overlay_team3 {
+    opacity: .9;
+} 
+/* =============================== END OF THIRD TEAM IMAGE HOVER EFFECT =================== */
+
+
+/* =============== END OF SECTION TEAM ===============*/
+
+/* ===================== CONTACT SECTION ================== */ 
+.contact {
+    width: 80%;
+    margin:50px 200px;
+    padding: 0px 50px;
+    font-size:20px;
+}
+.contact_container {
+    margin: 200px 0px;
+    position: relative;
+    bottom: 50px;
+}
+.contact_title {
+    letter-spacing: 4px;
+    font-weight: 900;
+    margin-right: 100px;
+    font-size: 22px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    
+}
+.contact_labels {
+    display: flex;
+    flex-direction: column;
+}
+.contact_labels input  {
+    margin: 20px 0px;
+    width: 650px;
+    height: 50px;
+    border: 2px solid #767676; 
+    padding-left: 20px; 
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+/* ===================== COLOR OF PLACEHOLDER ===========*/
+
+
+  /* ===================== COLOR OF PLACEHOLDER ===========*/
+
+#message {
+    height: 130px;
+}
+.msgHolder {
+    padding-bottom: 90px;
+}
+#send_btn {
+    width: 160px;
+    height: 45px;
+    margin: 20px 220px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 2px solid #767676;  
+    background-color: #fff;
+    transition: 0.4s;
+}
+#send_btn:hover {
+    background-color: #ef5821;
+    border: 0px;
+    color: #fff;
+    font-size:16px;
+    box-shadow: 5px 5px #888888;
+}
+.contact_container .contactAllcircles {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100px;
+}
+.shapeOfCircle1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+    left: 450px;
+    bottom: 35px;
+}
+#contact_circles {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border: 1.5px solid black;
+    position: relative;
+    left: 700px;
+    bottom: 410px;
+}
+.contact .contact_container .contactAllcircles .shapeOfCircle1 img {
+    margin: 7px;
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+}
+.contact .contact_container .contactAllcircles .shapeOfCircle1 {
+    text-align: center;
+}
+.contact .contact_container .contactAllcircles .shapeOfCircle1 .information {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    font-size: 10px;
+    margin: -70px 80px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.contact .contact_container .contactAllcircles .shapeOfCircle1 .information h5 {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 10px;
+}
+.contact .contact_container .contactAllcircles .shapeOfCircle1 .information p {
+    margin: 2px 0;
+}
+
+
+footer {
+    background-color: #363535;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 475px;
+    color: #fff;
+}
+
+.footer_container {
+    margin: auto 240px;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 300px;
+    line-height: 26px;
+    text-align: left;
+}
+.footer_container .leftFooter h1 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.footerSpan {
+    color: #ef5821;
+}
+
+.footer_container .leftFooter p {
+    margin-top: 30px;
+}
+.footer_container  img {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    position: relative;
+    bottom: 40px;
+    right: 12px
+}
+.footer_container .leftFooter {
+width: 300px;
+font-size: 15px;
+margin: 30px;
+
+
+}
+.midFooter  {
+    width: 200px;
+    margin-top: 26px;
+    
+}
+.midFooter h3 {
+    font-size: 15px;
+    line-height: 23px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.midFooter h3:hover {
+    color:#ef5821;
+}
+.rightFooter {
+    width: 300px;
+    margin-top: 32px ;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+
+}
+.rightFooter h3 {
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.rightFooter input {
+    width: 400px;
+    height: 33px;
+    margin-top: 33px;
+    border: 2px solid #f5f5f5;
+    background-color: #363535;
+    padding-left: 20px;
+}
+.rightFooter ::placeholder {
+    color: #f5f5f5;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.rightFooter button {
+    margin-top: 30px;
+    width: 165px;
+    height: 35px;
+    background-color: #f8f8f8;
+    font-weight:bolder;
+    color: black;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.rightFooter button:hover {
+    background-color: #ef5821;
+    border: 0px;
+    color: #fff;
+} 
+/* ======================= END OF FOOTER ==================*/
+
+/* =======================**Start** of **END**==============*/
+.end {
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    position: relative;
+    bottom: 480px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    
+}
+.copyRight {
+    margin: 35px -10px;
+}
+.socialIcons {
+    display: flex;
+    margin: 0 -60px;
+}
+.socialIcons i {
+    margin: 35px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #f5f5f5;
+    transition: 0.3s;
+}
+.socialIcons i:hover {
+    color: #ef5821;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 1px;
+}
+
